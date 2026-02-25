@@ -1,7 +1,13 @@
-@SpringBootApplication
-public class SpringdemoApplication {
+package com.avizway.Springdemo;
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringdemoApplication.class, args);
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringdemoApplicationTests {
+
+    @Test
+    void contextLoads() {
     }
+
 }
